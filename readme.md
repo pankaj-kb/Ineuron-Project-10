@@ -1,5 +1,3 @@
-# Replicate the Following Output
+# Ineuron-Project-10
 
-`Assests are Provided!`
-
-![Project 4](./Real%20Estate%20-%20Desktop.png)
+## <a href="https://pankaj-kb.github.io/Ineuron-Project-10/"> Click Here to Visit Live Site ...</a>
