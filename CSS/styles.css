@@ -66,15 +66,15 @@ nav p:hover {
     width: 70%;
     height: 50%;
     position: relative;
-    left: 10%;
+    left: 9%;
     top: 150px;
-    gap: 50px;
+    gap: 5px;
 }
 
 .main-hero h1 {
     font-size: 70px;
     color: #ffffff;
-    width: 50%;
+    width: 60%;
 }
 
 .main-hero h1 span {
@@ -109,4 +109,21 @@ nav p:hover {
     color: #6663E9;
     background-color: #ffffff;
     border: 5px solid #6663E9;
+}
+
+.logo-gallary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 200px;
+    gap: 50px;
+    width: 80%;
+    position: relative;
+    left: 200px;
+    border-radius: 20px;
+}
+
+.logo-gallary img {
+    height: 45px;
 }
