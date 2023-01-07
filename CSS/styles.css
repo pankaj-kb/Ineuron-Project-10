@@ -116,14 +116,27 @@ nav p:hover {
     align-items: center;
     justify-content: center;
     background-color: #ffffff;
-    height: 200px;
+    height: 150px;
     gap: 50px;
     width: 80%;
-    position: relative;
+    position: absolute;
     left: 200px;
-    border-radius: 20px;
+    border-radius: 40px;
+    top: -20px;
+    z-index: 2;
 }
 
 .logo-gallary img {
     height: 45px;
+    transition: all ease-in-out 0.2s;
+}
+
+.logo-gallary img:hover {
+    /* height: 50px; */
+    transform:scaleY(1.5);
+    cursor: pointer;
+}
+
+.estate-gallary-1 {
+    background-color: #F6F8FA;
 }
