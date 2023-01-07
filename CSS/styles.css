@@ -7,3 +7,106 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+button:hover {
+    cursor: pointer;
+}
+
+:root {
+    --mainImage : url(../Assets/Photos/mainBackground.png)
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), var(--mainImage);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    /* filter: brightness(70%); */
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    align-items: center;
+    height: 120px;
+    border-bottom: 1px solid #B7B8B8;
+    padding-bottom: 20px;
+    width: 80%;
+}
+
+nav img {
+    height: 60px;
+}
+
+.navRight {
+    display: flex;
+    gap: 40px;
+}
+nav p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #B7B8B8;
+    cursor: pointer;
+}
+
+nav p:hover {
+    color: #ffffff;
+}
+
+.main-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:baseline;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: -20px;
+    top: 150px;
+    gap: 50px;
+}
+
+.main-hero h1 {
+    font-size: 70px;
+    color: #ffffff;
+    width: 50%;
+}
+
+.main-hero h1 span {
+    padding-bottom: 1px;
+    border-bottom:10px solid;
+    color: #6663E9;
+}
+
+.main-hero p {
+    color: #B7B8B8;
+    font-size: 20px;
+    width: 50%;
+}
+
+.main-hero p span {
+    color: #6663E9;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.main-hero button {
+    color: #ffffff;
+    background-color: #6663E9;
+    padding: 15px 50px;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 20px;
+    border: 5px solid #6663E9;
+}
+
+.main-hero button:hover {
+    color: #6663E9;
+    background-color: #ffffff;
+    border: 5px solid #6663E9;
+}
