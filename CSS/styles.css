@@ -21,7 +21,7 @@ button:hover {
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900px;
+    height: 950px;
     display: flex;
     flex-direction: column;
     /* filter: brightness(70%); */
@@ -63,10 +63,10 @@ nav p:hover {
     flex-direction: column;
     justify-content: space-around;
     align-items:baseline;
-    width: 50%;
+    width: 70%;
     height: 50%;
     position: relative;
-    left: -20px;
+    left: 10%;
     top: 150px;
     gap: 50px;
 }
