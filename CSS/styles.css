@@ -111,6 +111,36 @@ nav p:hover {
     border: 5px solid #6663E9;
 }
 
+.sticky-bubble {
+    position: fixed;
+    bottom: 300px;
+    right: 100px;
+    border-radius: 50%;
+    background-color: #6663E9;
+    width: 90px;
+    height: 90px;
+    transition: all 0.3s;
+    text-align: center;
+    filter: brightness(80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sticky-bubble p {
+    text-align: center;
+    color: #F6F8FA;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .sticky-bubble:hover {
+    background-color: #6663E9;
+    filter: brightness(100%);
+    cursor: pointer;
+  }
+  
+
 .logo-gallary {
     display: flex;
     align-items: center;
