@@ -165,7 +165,7 @@ nav p:hover {
 
 .logo-gallary img:hover {
     /* height: 50px; */
-    transform: scaleY(1.5);
+    transform: scaleY(1.1);
     cursor: pointer;
 }
 
@@ -225,6 +225,96 @@ nav p:hover {
 
 .gallary-3 {
     background: url(../Assets/Photos/cardImage3.png);
+    /* background-size: 500px; */
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 400px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 100px;
+}
+
+.estate-gallary-2 {
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallary-4 {
+    background: url(../Assets/Photos/cardImage4.png);
+    /* background-size: px; */
+    background-position: 50%;
+    background-size: cover;
+    height: 450px;
+    width: 400px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.gallary-5 {
+    background: url(../Assets/Photos/cardImage5.png);
+    /* background-size: 500px; */
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 400px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+.gallary-6 {
+    background: url(../Assets/Photos/cardImage6.png);
+    /* background-size: 500px; */
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 400px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 100px;
+}
+
+.gallary-7 {
+    background: url(../Assets/Photos/cardImage7.png);
+    /* background-size: px; */
+    background-position: 50%;
+    background-size: cover;
+    height: 450px;
+    width: 400px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.gallary-8 {
+    background: url(../Assets/Photos/cardImage8.png);
+    /* background-size: 500px; */
+    /* background-position: 50%; */
+    background-size: cover;
+    height: 450px;
+    width: 400px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+.gallary-9 {
+    background: url(../Assets/Photos/cardImage9.png);
     /* background-size: 500px; */
     background-position: center;
     background-size: cover;
