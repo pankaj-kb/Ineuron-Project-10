@@ -169,4 +169,17 @@ nav p:hover {
 
 .estate-gallary-1 {
     background-color: #F6F8FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 900px;
+}
+
+.estate-gallary-1 h1 {
+    color: #1f1f1f;
+    font-size: 70px;
+    font-weight: 600;
+    text-align: center;
+    width: 30%;
 }
