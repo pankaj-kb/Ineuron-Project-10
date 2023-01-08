@@ -81,7 +81,9 @@ nav p:hover {
 .main-hero h1 span {
     padding-bottom: 1px;
     border-bottom: 10px solid;
-    color: #6663E9;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 5px;
+    color: #6F00FF;
 }
 
 .main-hero p {
