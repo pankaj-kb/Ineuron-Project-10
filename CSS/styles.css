@@ -40,7 +40,7 @@ nav {
 }
 
 nav img {
-    height: 60px;
+    height: 90px;
 }
 
 .navRight {
@@ -149,7 +149,7 @@ nav p:hover {
     justify-content: center;
     background-color: #ffffff;
     height: 150px;
-    gap: 50px;
+    gap: 10%;
     width: 80%;
     position: absolute;
     left: 200px;
@@ -159,7 +159,7 @@ nav p:hover {
 }
 
 .logo-gallary img {
-    height: 45px;
+    height: 100px;
     transition: all ease-in-out 0.2s;
 }
 
