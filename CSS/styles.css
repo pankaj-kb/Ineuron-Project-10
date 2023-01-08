@@ -13,12 +13,12 @@ button:hover {
 }
 
 :root {
-    --mainImage : url(../Assets/Photos/mainBackground.png)
+    --mainImage: url(../Assets/Photos/mainBackground.png)
 }
 
 .hero-section {
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), var(--mainImage);
-    background-position:center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--mainImage);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 950px;
@@ -47,6 +47,7 @@ nav img {
     display: flex;
     gap: 40px;
 }
+
 nav p {
     font-size: 18px;
     font-weight: 300;
@@ -62,7 +63,7 @@ nav p:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items:baseline;
+    align-items: baseline;
     width: 70%;
     height: 50%;
     position: relative;
@@ -79,7 +80,7 @@ nav p:hover {
 
 .main-hero h1 span {
     padding-bottom: 1px;
-    border-bottom:10px solid;
+    border-bottom: 10px solid;
     color: #6663E9;
 }
 
@@ -113,8 +114,8 @@ nav p:hover {
 
 .sticky-bubble {
     position: fixed;
-    bottom: 300px;
-    right: 100px;
+    bottom: 50px;
+    right: 20px;
     border-radius: 50%;
     background-color: #6663E9;
     width: 90px;
@@ -125,21 +126,22 @@ nav p:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .sticky-bubble p {
+.sticky-bubble p {
     text-align: center;
     color: #F6F8FA;
     font-size: 15px;
     font-weight: 600;
-  }
-  
-  .sticky-bubble:hover {
+    z-index: 5;
+}
+
+.sticky-bubble:hover {
     background-color: #6663E9;
     filter: brightness(100%);
     cursor: pointer;
-  }
-  
+}
+
 
 .logo-gallary {
     display: flex;
@@ -163,7 +165,7 @@ nav p:hover {
 
 .logo-gallary img:hover {
     /* height: 50px; */
-    transform:scaleY(1.5);
+    transform: scaleY(1.5);
     cursor: pointer;
 }
 
@@ -172,8 +174,10 @@ nav p:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
-    height: 900px;
+    /* justify-content: space-evenly; */
+    height: 950px;
+    /* gap: 20px; */
+    padding-top: 80px;
 }
 
 .estate-gallary-1 h1 {
@@ -182,4 +186,107 @@ nav p:hover {
     font-weight: 600;
     text-align: center;
     width: 30%;
+}
+
+.gallary-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.gallary-1 {
+    background: url(../Assets/Photos/cardImage1.png);
+    /* background-size: px; */
+    background-position: 50%;
+    background-size: cover;
+    height: 450px;
+    width: 400px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.gallary-2 {
+    background: url(../Assets/Photos/cardImage2.png);
+    /* background-size: 500px; */
+    /* background-position: 50%; */
+    background-size: cover;
+    height: 450px;
+    width: 400px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+.gallary-3 {
+    background: url(../Assets/Photos/cardImage3.png);
+    /* background-size: 500px; */
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 400px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 100px;
+}
+
+/* .gallary {
+    transition: all ease-in-out 0.5s;
+}
+
+.gallary:hover .property-info{
+    z-index: -2;
+} */
+.property-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    background-color: #FEFEFE;
+    height: 120px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    position: relative;
+    top: 50px;
+    transition: all ease-in-out 0.5s;
+}
+
+.property-info button {
+    background-color: #6663E9;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.property-info button:hover {
+    background-color: #6663E9;
+}
+
+.info-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-flex p:nth-child(1) {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.info-flex p:nth-child(2) {
+    font-size: 20px;
+    font-weight: 500;
+    color: #6663E9;
 }
