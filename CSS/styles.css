@@ -169,18 +169,18 @@ nav p:hover {
     cursor: pointer;
 }
 
-.estate-gallary-1 {
+.estate-gallary {
     background-color: #F6F8FA;
     display: flex;
     flex-direction: column;
     align-items: center;
     /* justify-content: space-evenly; */
-    height: 950px;
+    height: 2100px;
     /* gap: 20px; */
     padding-top: 80px;
 }
 
-.estate-gallary-1 h1 {
+.estate-gallary h1 {
     color: #1f1f1f;
     font-size: 70px;
     font-weight: 500;
@@ -235,12 +235,6 @@ nav p:hover {
     justify-content: center;
     align-items: flex-end;
     margin-top: 100px;
-}
-
-.estate-gallary-2 {
-    height: 950px;
-    display: flex;
-    flex-direction: column;
 }
 
 .gallary-4 {
