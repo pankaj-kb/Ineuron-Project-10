@@ -116,8 +116,8 @@ nav p:hover {
 
 .sticky-bubble {
     position: fixed;
-    bottom: 50px;
-    right: 20px;
+    bottom: 100px;
+    right: 30px;
     border-radius: 50%;
     width: 90px;
     height: 90px;
@@ -561,7 +561,7 @@ nav p:hover {
     align-items: center;
     justify-content: center;
     gap: 20%;
-    height: 600px;
+    height: 400px;
     background-color: #F6F8FA;
 }
 
@@ -605,4 +605,21 @@ nav p:hover {
     color: #000;
     font-size: 22px;
     font-weight: 600;
+}
+
+.extraSpacing {
+    height: 100px;
+    background-color: #F6F8FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signature {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    /* display: none; */
+    /* visibility: hidden; */
 }
