@@ -466,3 +466,90 @@ nav p:hover {
     bottom: 50px;
 }
 
+
+.sign-up-section {
+    background-color: #F6F8FA;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submission-box {
+    background-color: #6663E9;
+    height: 600px;
+    width: 80%;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+.submission-box h1 {
+    color: #ffffff;
+    font-size: 60px;
+    width: 70%;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+.submission-box p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    width: 50%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.sign-up-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 60px;
+}
+
+.sign-up-details input {
+    padding: 20px 50%;
+    background-color: #5654D1;
+    border-radius: 50px;
+    /* width: 20px; */
+    color: #FEFEFE;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.sign-up-details input::placeholder {
+    color: #B7B8B8;
+    font-size: 18px;
+    font-weight: 300;
+    width: 200%;
+}
+/* 
+.sign-up-details input::shadow {
+    color: #F6F8FA;
+
+} */
+
+.sign-up-details img {
+    position: relative;
+    z-index: 2;
+    left: 100px;
+}
+
+.sign-up-details button {
+    font-size: 22px;
+    color: #6F00FF;
+    padding: 15px 25px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    font-weight: 600;
+    filter: brightness(90%);
+}
+
+.sign-up-details button:hover {
+    filter: brightness(100%);
+}
