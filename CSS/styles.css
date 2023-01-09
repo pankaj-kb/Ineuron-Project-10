@@ -555,3 +555,54 @@ nav p:hover {
 .sign-up-details button:hover {
     filter: brightness(100%);
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    height: 600px;
+    background-color: #F6F8FA;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer-left img {
+    /* height: 30px; */
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-left p {
+    font-size: 20px;
+    width: 70%;
+    text-align: center;
+}
+
+.footer-right {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 50%;
+    width: 30%;
+}
+
+.footer-right p {
+    color: #1f1f1f;
+}
+
+.footer-head {
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+}
